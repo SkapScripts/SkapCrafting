@@ -1,10 +1,10 @@
 WebhookConfig = {}
 
 -- Webhooks
-WebhookConfig.AttemptCraft = "https://discord.com/api/webhooks/1371633101075386399/_EygEX6xLvTepi6iKxII1MIzNxbg6eXJdFGWFXJDK26zKAfAxZv1gbVb5DC6YBseVXHQ" -- När crafting försöks
-WebhookConfig.CraftSuccess = "https://discord.com/api/webhooks/1371633101075386399/_EygEX6xLvTepi6iKxII1MIzNxbg6eXJdFGWFXJDK26zKAfAxZv1gbVb5DC6YBseVXHQ" -- När crafting lyckas
-WebhookConfig.CraftLimitReached = "https://discord.com/api/webhooks/1371633101075386399/_EygEX6xLvTepi6iKxII1MIzNxbg6eXJdFGWFXJDK26zKAfAxZv1gbVb5DC6YBseVXHQ" -- När spelaren nått maxgräns
-WebhookConfig.CraftMissingItems = "https://discord.com/api/webhooks/1371633101075386399/_EygEX6xLvTepi6iKxII1MIzNxbg6eXJdFGWFXJDK26zKAfAxZv1gbVb5DC6YBseVXHQ" -- När items saknas
+WebhookConfig.AttemptCraft = "YOUR_WEBHOOK_HERE" -- När crafting försöks
+WebhookConfig.CraftSuccess = "YOUR_WEBHOOK_HERE" -- När crafting lyckas
+WebhookConfig.CraftLimitReached = "YOUR_WEBHOOK_HERE" -- När spelaren nått maxgräns
+WebhookConfig.CraftMissingItems = "YOUR_WEBHOOK_HERE" -- När items saknas
 
 function SendWebhook(url, title, description, color)
     local embed = {{
